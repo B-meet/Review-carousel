@@ -1,0 +1,33 @@
+:root {
+  --main-clr: rgb(241, 245, 248);
+  --white-clr: rgb(255, 255, 255);
+  --blue-img-clr: 73, 166, 233;
+  --dark-blue-clr: rgb(6, 50, 81);
+  --text-clr: rgb(97, 125, 152);
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Tahoma, sans-serif;
+  text-transform: capitalize;
+}
+
+.main-heading {
+  letter-spacing: 1px;
+  width: max-content;
+  margin: 4rem auto;
+}
+
+.card {
+  max-width: 650px;
+  width: 90vw;
+}
